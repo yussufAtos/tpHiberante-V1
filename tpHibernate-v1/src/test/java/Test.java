@@ -13,7 +13,7 @@ public class Test {
 		// TODO Auto-generated method stub
 
 	
-		EntityManagerFactory emf = Persistence.createEntityManagerFactory("UP_CAT");    
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("UP_Cat");    
 	    EntityManager em = emf.createEntityManager();    
 	    EntityTransaction transac = em.getTransaction();
 	    transac.begin();
